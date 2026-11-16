@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>🍅 Pomodoro Timer</h1>
+    <div class="modes">
+      <button id="mode-focus" class="mode active">Focus · 25</button>
+      <button id="mode-short" class="mode">Short break · 5</button>
+      <button id="mode-long" class="mode">Long break · 15</button>
+    </div>
+    <p id="timer" class="timer">25:00</p>
+    <p id="session-label">Session 1 of 4</p>
+    <div class="controls">
+      <button id="start-btn" class="primary">Start</button>
+      <button id="reset-btn">Reset</button>
+    </div>
+    <p class="hint">After 4 focus sessions, take a long break. A beep plays when time is up.</p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
